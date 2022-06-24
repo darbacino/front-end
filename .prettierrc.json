@@ -1,0 +1,22 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "arrowParens": "avoid",
+  "importOrder": [
+    "^react",
+    "<THIRD_PARTY_MODULES>",
+    "^modules",
+    "^modules/(.*)$",
+    "^shared",
+    "^shared/(.*)$",
+    "^config",
+    "^config/(.*)$",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

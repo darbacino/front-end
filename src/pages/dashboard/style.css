@@ -1,0 +1,27 @@
+
+.labelSize{
+   font-size: 40px;
+}
+
+.textCenter{ display: flex;
+   flex-direction: column;
+   
+   font-size: 35px;
+   background-color: cornflowerblue;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   height: 100%;
+}
+h2{
+   color: white;
+}
+.textFormat{
+   color: white;
+  
+  
+}

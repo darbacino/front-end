@@ -1,0 +1,49 @@
+.navBar{
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+   font-family: serif;
+   gap:2rem;
+   padding: 0 1rem;
+   padding-right: 10%;
+  
+}
+.navBarPos{
+   
+      display: flex;
+      flex-direction: column;
+      
+      font-size: 35px;
+      background-color: cornflowerblue;
+      position: absolute;
+      width: 100%;
+   
+}
+.navBar ul{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   gap:1rem;
+}
+.navBar a{
+   color: inherit;
+   font-family: inherit;
+   text-decoration: none;
+}
+
+.navBar li.hover{
+   background-color: aqua;
+}
+
+.navBar li.active{
+   background-color: aqua;
+}
+.logo {
+   margin-top: 5px;
+   width: 100px;
+   height: 60px;
+ }
